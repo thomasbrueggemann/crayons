@@ -7,11 +7,10 @@ Coloured std::cout
 #include <iostream>
 #include "crayons.hpp"
 
-using namespace std;
-
-int main() {
+int main() 
+{
     Crayon red(FG_RED);
     Crayon def(FG_DEFAULT);
-    cout << "This " << red << "word" << def << " is red." << endl;
+    std::cout << "This " << red << "word" << def << " is red." << std::endl;
 }
 ```
