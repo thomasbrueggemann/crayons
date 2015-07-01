@@ -12,6 +12,7 @@ enum Code {
     FG_MAGENTA = 35, 
     FG_CYAN = 36, 
     FG_LIGHT_GRAY = 37, 
+    FG_DEFAULT  = 39,
     FG_DARK_GRAY = 90, 
     FG_LIGHT_RED = 91, 
     FG_LIGHT_GREEN = 92, 
