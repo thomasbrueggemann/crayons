@@ -26,12 +26,12 @@ enum Code {
     BG_DEFAULT = 49
 };
 
-class Crayons {
+class Crayon {
     Code code;
 public:
-    Crayons(Code pCode) : code(pCode) {}
+    Crayon(Code pCode) : code(pCode) {}
     friend std::ostream&
-    operator<<(std::ostream& os, const Crayons& mod) {
+    operator<<(std::ostream& os, const Crayon& mod) {
         return os << "\033[" << mod.code << "m";
     }
 };
