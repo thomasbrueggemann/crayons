@@ -4,12 +4,14 @@ Coloured std::cout
 ## Example
 
 ```C++
-#include "colormod.h" // namespace Color
 #include <iostream>
+#include "crayons.hpp"
+
 using namespace std;
+
 int main() {
-    Color::Modifier red(Color::FG_RED);
-    Color::Modifier def(Color::FG_DEFAULT);
-    cout << "This ->" << red << "word" << def << "<- is red." << endl;
+    Crayon red(FG_RED);
+    Crayon def(FG_DEFAULT);
+    cout << "This " << red << "word" << def << " is red." << endl;
 }
 ```
