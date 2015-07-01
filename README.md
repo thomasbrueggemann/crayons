@@ -1,4 +1,4 @@
-# crayons
+# Crayons
 Coloured std::cout
 
 ## Example
